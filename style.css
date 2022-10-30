@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #3a2d2b;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Gaegu", cursive;
+  font-size: 30px;
+  font-weight: 700;
+  min-height: 100%;
+}
+body .row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.square {
+  height: 25px;
+  width: 25px;
+  background-color: rgba(255, 255, 255, 0.02);
+  border-radius: 2px;
+  margin: 1px;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.boardAdjacent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.upcoming, .hold {
+  width: 100px;
+}
+
+h3 {
+  height: 1.5rem;
+  font-size: 20px;
+}
+
+#settings {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#settings:hover {
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+#settingsMenu {
+  position: absolute;
+  font-size: 22px;
+  top: 50px;
+  right: 10px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+#settingsMenu .row {
+  justify-content: flex-end;
+  gap: 10px;
+}
+#settingsMenu input {
+  width: 50px;
+  color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(0, 0, 0, 0.4);
+  font-family: "Gaegu", cursive;
+  font-weight: 700;
+  border: none;
+  font-size: 20px;
+  border-radius: 3px;
+}
+
+#gameStats {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#gameStats .subtext {
+  font-size: 15px;
+  line-height: 15px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tetris</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>tetris</h1>
+    <div class="game">
+        <div class="boardAdjacent">
+            <div>
+                hold
+                <div class="hold"></div>
+            </div>
+            <div id="gameStats">
+                40
+                <div class="subtext">lines remaining</div>
+                <div class="subtext">F4 to restart</div>
+            </div>
+        </div>
+        <div class="board"></div>
+        <div class="boardAdjacent">
+            <div>
+                next
+                <div class="upcoming"></div>
+            </div>
+        </div>
+    </div>
+    <!-- <h3>This should not be here!</h3>
+    <div id="settings">Settings</div>
+    <div id="settingsMenu">
+        <div class="row"><p>move left:</p><input type="text" maxlength="1"></div>
+        <div class="row"><p>move right:</p><input type="text" maxlength="1"></div>
+        <div class="row"><p>soft drop:</p><input type="text" maxlength="1"></div>
+        <div class="row"><p>hard drop:</p><input type="text" maxlength="1"></div>
+        <div class="row"><p>rotate left:</p><input type="text" maxlength="1"></div>
+        <div class="row"><p>rotate right</p><input type="text" maxlength="1"></div>
+        <div class="row"><p>rotate 180:</p><input type="text" maxlength="1"></div>
+        <div class="row"><p>hold:</p><input type="text" maxlength="1"></div>
+        <div class="row"><p>das:</p><input type="text" maxlength="1"></div>
+        <div class="row"><p>arr:</p><input type="text" maxlength="1"></div>
+    </div> -->
+
+    
+    <script src="js\jquery-3.6.0.min.js"></script>
+    <script src="js/constants.js"></script>
+    <script src="js/settings.js"></script>
+    <script src="js/ShapeGenerator.js"></script>
+    <script src="js/Block.js"></script>
+    <script src="js/Board.js"></script>
+    <script src="js/Display.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html> 
