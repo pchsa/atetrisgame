@@ -39,6 +39,14 @@ ${ game.totalLinesCleared }
 
 
 
+var timer = setInterval(fallPiece, 1000);
+
+function fallPiece() {
+    game.getCurrentPiece().translate('DOWN')
+    display.updateCurrentPiece();
+
+}
+
 function keydown (event) { 
     if (document.activeElement.tagName === "INPUT") {
         console.log('hi')
