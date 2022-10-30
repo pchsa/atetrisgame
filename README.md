@@ -1,6 +1,6 @@
 # atetrisgame
 
-[Go to Website]()
+[Go to Website](https://pchsa.github.io/atetrisgame/)
 
 Controls:
 * Move Left / Right: Left, Right Arrow
